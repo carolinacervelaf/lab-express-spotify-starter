@@ -18,6 +18,7 @@ app.use(express.static(__dirname + "/public"));
 
 app.use("/", router);
 
-app.listen(3000, () =>
+
+app.listen(1234, () =>
   console.log("My Spotify project running on port 3000 🎧 🥁 🎸 🔊")
 );
